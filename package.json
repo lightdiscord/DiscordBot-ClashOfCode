@@ -27,6 +27,7 @@
     "babel-preset-env": "^1.6.1"
   },
   "dependencies": {
+    "chalk": "^2.3.0",
     "discord.js": "^11.2.1"
   }
 }

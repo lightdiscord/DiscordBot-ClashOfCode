@@ -1,2 +1,3 @@
 # DiscordBot-ClashOfCode
-A Discord Bot alert when a new ClashOfCode start
+
+> A Discord Bot that warns you when a new Clash Of Code will starts

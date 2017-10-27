@@ -1,0 +1,32 @@
+{
+  "name": "@discord/clashofcode",
+  "version": "0.0.1",
+  "description": "A Discord Bot that warns you when a new Clash Of Code will starts",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "babel-node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LightDiscord/DiscordBot-ClashOfCode.git"
+  },
+  "keywords": [
+    "Discord",
+    "Bot",
+    "ClashOfCode"
+  ],
+  "author": "LightDiscord <contact@lightdiscord.fr> (https://lightdiscord.fr)",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/LightDiscord/DiscordBot-ClashOfCode/issues"
+  },
+  "homepage": "https://github.com/LightDiscord/DiscordBot-ClashOfCode#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-env": "^1.6.1"
+  },
+  "dependencies": {
+    "discord.js": "^11.2.1"
+  }
+}

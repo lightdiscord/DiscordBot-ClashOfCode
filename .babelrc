@@ -1,0 +1,10 @@
+{
+    "presets": [
+        ["env", {
+            "target": "node"
+        }]
+    ],
+    "plugins": [
+        "transform-decorators-legacy"
+    ]
+}

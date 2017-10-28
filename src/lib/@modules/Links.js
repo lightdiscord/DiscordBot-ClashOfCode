@@ -8,7 +8,7 @@ export default class Links {
     async onMessage (message) {
         if (message.author === client.user) return
         if (!message.guild) return
-        if (!await this.isValidLink(message)) return
+        if (!this.isValidLink(message)) return
 
         message.deletable && message.delete()
 
@@ -81,9 +81,11 @@ export default class Links {
             .setTitle('An error occured...')
             .setDescription(error)
             .setColor(0xf44336)
+
+        return await channel.send({ embed })
     }
 
-    async isValidLink ({ content }) {
+    isValidLink ({ content }) {
         return /https:\/\/www\.codingame\.com\/clashofcode\/clash\/[0-9a-z]+/gi.test(content.trim())
     }
 
